@@ -16,7 +16,7 @@ body{background:#fbfaf8}
 .mini-stats b{color:var(--charm)}
 .service-card{transition:transform .2s,box-shadow .2s,border-color .2s}
 .service-card:hover{transform:translateY(-3px);border-color:var(--charm-line);box-shadow:0 10px 28px rgba(76,49,43,.08)}
-.service-body a{color:#986359}
+.service-body a{color:#986359;display:inline-flex;align-items:center;gap:7px}
 .service-card.featured{position:relative}
 .service-card.featured:after{content:'Most requested';position:absolute;top:12px;left:12px;background:#fff7f4;color:#855b54;border:1px solid var(--charm-line);padding:5px 8px;border-radius:12px;font-size:9px;font-weight:700}
 .academy{background:#f2e2de}
@@ -33,4 +33,7 @@ body{background:#fbfaf8}
 .contact-direct a{border-top-color:#d6b3ab}
 .contact-form{box-shadow:0 8px 24px rgba(72,46,40,.05)}
 .floating-wa{background:#278653}
+.svg-icon{width:14px;height:14px;flex:0 0 14px;display:inline-block;vertical-align:-2px;color:currentColor;overflow:visible}
+.button.primary .svg-icon{width:15px;height:15px;flex-basis:15px}
+.floating-wa .svg-icon{width:14px;height:14px;flex-basis:14px}
 @media(max-width:620px){.hero-copy:before{margin-bottom:3px}.hero-art:after{right:7px;bottom:34px}.service-card.featured:after{top:10px;left:10px}}
